@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+.inPut {
+  background-color: antiquewhite;
+  border: 3px solid white;
+  color: purple;
+  font-weight: bolder;
+  width: 450px;
+  border-radius: 0.5rem;
+  padding: 40px;
+}
+.randombookname {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 10rem; */
+  height: 60vh;
+  gap: 5rem;
+  background-color: palevioletred;
+  margin: 0 auto;
+  margin-top: 4rem;
+  border-radius: 0.5rem;
+  width: 550px;
+  padding: 1rem;
+}
+.addBtn {
+  background-color: blueviolet;
+  color: white;
+  font-weight: bolder;
+  padding: 1rem;
+  border: 2px solid pink;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
